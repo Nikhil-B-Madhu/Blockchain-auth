@@ -1,0 +1,144 @@
+nikhil@nikhil-HP-ProBook-440-G3:~/Desktop/Blockchain$ go run Block_Inter.go 
+Initializing the parameters: 
+--ECC Parameters--
+ Name: P-256
+ N: ffffffff00000000ffffffffffffffffbce6faada7179e84f3b9cac2fc632551
+ P: ffffffff00000001000000000000000000000000ffffffffffffffffffffffff
+ Gx: 48439561293906451759052585252797914202762949526041747995844080717082404635286
+ Gy: 4fe342e2fe1a7f9b8ee7eb4a7c0f9e162bce33576b315ececbb6406837bf51f5
+ Bitsize: 100
+
+
+Private key  8875656a885959c42c21983bb171e8c9ba984dcf8211e6dd3789cd1983827635
+Public key (Alice) (61743a3ba0985112e0a930ddcef251d42513f99bdf60c56f2b7580c0510481d,57b622fe5b4177a1ade731c0e36bdfce28ce9ff6f6a808cbcc75dde71a700a42)
+
+ Starting Registration Phase: 
+
+ RPW: d3d46f2d28eb51de7cb4e868dfb4cabf7e8918fed8a85e72e132e587d8e47cee 
+ ID and RPW is updated by the patient. RC is called for further process. Random number generated: 81
+
+ Finding "m​ = h​(x​ || e)" :
+ M is e28c6c3c857e3fc262747ddf0f23c15234a054d2224efa12240f2710e3a3a1b6
+
+ Finding "R​= ID ⊕ h​(m​ || ​RPW​)" :  
+
+ " R​=ID ⊕ h​(m​ || ​RPW​) " : 1e56311f6c03b7350819cd200874476a12de7899a73eb85d42a33878bb98db71
+ Now Finding "V​ = h​(R​ || ID​ || RPW​).x ":
+ r is 1e56311f6c03b7350819cd200874476a12de7899a73eb85d42a33878bb98db71
+ " V hash " : c7d3014220a29d6395b02ed751d4793c3f65de7c4777a86fdbca7539a9af0e22 
+ " V​ = h​(R​ || ID​ || RPW​).x " : 6a83bb441bdac1488e39a50fd5b0e4b8183c07e886ac4a164abc6a3ed85557728443a384fc02f3fbb2f77a0aba4caf70490dd59c66b86ed87aab33996505990a 
+
+ Computing GID now.
+ " GID  " db84d355b87939f583348b8b2207f95f581434e0a8f175c31f5571c4970557f2 
+ All parameters are calculated and stored.
+
+ !..{GID​ i​ , V​ i​ , m​ i​ } of the Patient is updated..!
+
+ GID stored in Patient: db84d355b87939f583348b8b2207f95f581434e0a8f175c31f5571c4970557f2
+ Registration Phase for Patient is completed: 
+
+ RPW: d3b0d94a34efbd47575a9f345521eaffd68e017831fcaba075abf005f479b83c 
+ ID and RPW is updated by the PHC. RC is called for further process. Random number generated: 887
+
+ Finding "m​ = h​(x​ || e)" :
+ M is fadfae437ac2a8baf96ce1db9bd217375eef1235fd396d8caa11fd8a9be26106
+
+ Finding "R​= ID ⊕ h​(m​ || ​RPW​)" :  
+
+ " R​=ID ⊕ h​(m​ || ​RPW​) " : 2d1c99db7eab68012426995489dfad23517fdbb97a6e3cdce62aa01017036f13
+ Now Finding "V​ = h​(R​ || ID​ || RPW​).x ":
+ r is 2d1c99db7eab68012426995489dfad23517fdbb97a6e3cdce62aa01017036f13
+ " V hash " : 7137e14b29d632e49bb892b8b4d37b470c72c0b7b9d4628113744c1acd88bc72 
+ " V​ = h​(R​ || ID​ || RPW​).x " : 3c599b140ee70e5ffaf5e93ea8b00627de61488e453e96707317cabe0279fa70e8d8349b5512a5fc2c77624694c3f14b00b68a79a498a5f8e73525499c0f8f9a 
+
+ Computing GID now.
+ " GID  " 0db410a7e7dc31e9a7a1a3430766c907c4c4cc757f018d995ad53b8e87aee2fe 
+ All parameters are calculated and stored.
+
+ !..{GID​j , V​j , mj​ } of the PHC is updated..! 
+
+ GID stored in PHC: 0db410a7e7dc31e9a7a1a3430766c907c4c4cc757f018d995ad53b8e87aee2fe
+ Registration Phase for PHC is completed: 
+
+ RPW: 3f0c5420c1e04cdba231152ca71a1790f682fa485e5edf10620f04ac137693c3 
+ ID and RPW is updated by the Govt Hospital. RC is called for further process. Random number generated: 847
+
+ Finding "m​ = h​(x​ || e)" :
+ M is bcd1b925450ade1c75021549814535991e669208aee170f5a2ccaab05c19d48c
+
+ Finding "R​= ID ⊕ h​(m​ || ​RPW​)" :  
+
+ " R​=ID ⊕ h​(m​ || ​RPW​) " : 294abbaca51bed2ec47d794d7d46c1d25a15f72f4572702384fc41a005c91ce9
+ Now Finding "V​ = h​(R​ || ID​ || RPW​).x ":
+ r is 294abbaca51bed2ec47d794d7d46c1d25a15f72f4572702384fc41a005c91ce9
+ " V hash " : 453546591189862cbbe1d20a1e9589016bb92261aa012b734cd7b7c01b9160d3 
+ " V​ = h​(R​ || ID​ || RPW​).x " : 24e40a2349b2cd17ef9842ef0e0f91dbea6a7445639431038a8a547269e95429ee8a61e4e0e64517f45b45c9ade6995d59e9be2ba596797436ab6774dbe04daf 
+
+ Computing GID now.
+ " GID  " a074b7da85cbb81c2942bc09509023e002bb1537d8210c7740b60c1b5d77a66d 
+ All parameters are calculated and stored.
+
+ !..{GID​k , V​k​ , m​k​ } of the GovtHosp is updated..! 
+
+ GID stored in Govt Hospital: a074b7da85cbb81c2942bc09509023e002bb1537d8210c7740b60c1b5d77a66d
+ Registration Phase for Govt Hospital is completed: 
+
+
+
+ Start Login Phase.Patient to PHC
+ RPW*​ =h​​ (ID​​ || PW​ ) = d3d46f2d28eb51de7cb4e868dfb4cabf7e8918fed8a85e72e132e587d8e47cee
+ R​*​ = ID​​ ⊕ h​ (m​ || RPW​ ) = 1e56311f6c03b7350819cd200874476a12de7899a73eb85d42a33878bb98db71
+ " Vstar " : 6a83bb441bdac1488e39a50fd5b0e4b8183c07e886ac4a164abc6a3ed85557728443a384fc02f3fbb2f77a0aba4caf70490dd59c66b86ed87aab33996505990a 
+ !..ID and Password of the Patient is Correct..!
+ Random number generated: 59
+ Random number generated:  59
+ wPpub: 020109050504020702040B0606050D060105000C0B000E070400000103060C0205070102030304030A01070E000A0203060E0D0F0F040B060106010A050A0E0A0C05020C050203030D0F0106 
+ Current date and time is:  2020-05-02 15:58:35.814582447 +0530 IST m=+0.012990677
+Current Second is T1:  35
+
+ Cu: 020109050504020702040B0606050D060105000C0B000E070400000103060C0205070102030304030A01070E75C824C9C20450D8696D3A9F24B3E1B4BAFADF58F7FC96E5C8B8EB3D95110E33
+ CIDi : af150f5203a97e0748de4c80142717dada95aab3f2aa43f602fc08f00be90a31
+ C1 : c80350dd331fb0a4a27a9d546ce53ea947bf3a465c4a23a9df3e72c5e03693a3
+ Parametes are calculates and sending to PHC server for further processing
+
+ Current date and time is:  2020-05-02 15:58:35.814698898 +0530 IST m=+0.013107100
+Current Second is T1:  35
+
+ Updated wPup: 020109050504020702040B0606050D060105000C0B000E070400000103060C0205070102030304030A01070E000A0203060E0D0F0F040B060106010A050A0E0A0C05020C050203030D0F0106
+ C​p​ = w.P​ pub ⊕ ​h​(GID​j​ || mj​ || T2​ ): 020109050504020702040B0606050D060105000C0B000E070400000103060C0205070102030304030A01070E40DDB99B88FD1AD50158158DFE313E5702653E491AAFC50E08D1BE8303AC974A
+ CID​j​ = h​(C​u || ​C​p​ || w.P​pub​ ): 7AA2854F28CC5147E98844EC982F17EDCA440CF0E699D623500F87EF8DAD80DF
+ C​2​ = h​(w.P​pub || ​C​1​ || CID​i || CID​i || ​T​1​ || T​2​ ): A0EB39C967A1269D9A9AF7C51F2CC8BF1504E49ED68B92A33B4DC09B0774B0FC
+ Sends {M​ 1​ , C​ p​ , C​ 2​ , T​ 2​ } to the GH server 
+
+ Current date and time is:  2020-05-02 15:58:35.814756359 +0530 IST m=+0.013164551
+
+ Current Second is T1:  35
+
+ wPup’​ = C​u ⊕ h​(GID​i​ || m​i​ || T​1​ ): 020109050504020702040B0606050D060105000C0B000E070400000103060C0205070102030304030A01070E000A0203060E0D0F0F040B060106010A050A0E0A0C05020C050203030D0F0106
+ CID​ j​ ’​ = h(C​u || C​p​ || w.P​pub​ ): 7aa2854f28cc5147e98844ec982f17edca440cf0e699d623500f87ef8dad80df
+ C​1’ = h​(CID​i’ || m​i​ || w.P​ pub​') : c80350dd331fb0a4a27a9d546ce53ea947bf3a465c4a23a9df3e72c5e03693a3
+ C2’= h(w.P​ pub​’​ || ​C1​ || CIDi || CIDj’​ || T1 || T2​ ): A0EB39C967A1269D9A9AF7C51F2CC8BF1504E49ED68B92A33B4DC09B0774B0FC
+ C​2​’ successfully matches with received C2​ 
+ Random number generated: 81
+ Random number generated:  81
+ y.Ppub: 06050F0304010101000500050507080C080D020C070A010B0A000706010104000E050E0C090C07000602090A0A0D0507010402030007050101080E06060705020F000A0B060C0601010C010808 
+ Ck: 06050F0304010101000500050507080C080D020C070A010B0A000706010104000E050E0C090C07000602090A0A1512F69FC22D2B5BBFDD12C5CB487C19489524BE667E486273F69D7CE75A3E8F
+ SK​ghc​ = h​(y.P​pub || ​w.P​pub​’ || m​i​ || m​j​ || m​k​ ): d643dddfda0bef7e39707d7f3afc73e1f789eb0258c0895894509d98cfea0a90 
+ C​3​ = h​(SK​ghc​ || T​3​ || y.P​pub​ ):6d5b59fdcfb36a52f7e83560da66fa18e55cdb64fb4d981c8548a93be6cdb8e9
+ GH server sends a mutual authentication message M2= {C3​, Ck​, T3} to PHC server.
+
+ Return with M2 = {C​3​ , C​k​ , T​3​ }​ ​ to PHC server
+
+ y.P​pub​’ =​ C​k​ ⊕ h​(GID​k​ || m​k​ || T​3​ ): 06050f0304010101000500050507080c080d020c070a010b0a000706010104000e050e0c090c07000602090a0a94c0da40133edc53b839c237bd93f3d275d65ed15ec0166da7f0d5d632ab31fa
+ SK​phc​ = h​(y.P​pub​’​ || ​w.P​pub​’ || m​i​ || m​j​ || m​k​ ): 1f4205fb0d0f3c905cb5adb890237bb64517af936b909db54f64d848b075dd67 
+ C​4 = h​(SK​phc​ || C​3​ || y.P​pub || w.P​pub​ ’): 74b3f9dd367f0f6258fa70fc8e8c87eae2355c6e28b17a2b77bbd6bd7748bfb1 
+ Sends {M​2​ , C​4​ } to the patient
+
+ Patient receives mutual authentication message {M​2​ ,C4​ } from PHC server
+
+ y.P​pub​’​ = Ck ⊕ h​(GID​k​ || m​k​ || T​3​ ): 06050f0304010101000500050507080c080d020c070a010b0a000706010104000e050e0c090c07000602090a0a94c0da40133edc53b839c237bd93f3d275d65ed15ec0166da7f0d5d632ab31fa
+ SK​p​ = h​(y.P​pub​’​ || ​ w.P​pub​ || m​i​ || m​j​ || m​k​ ): 1f4205fb0d0f3c905cb5adb890237bb64517af936b909db54f64d848b075dd67
+ C​4​’ = h​(SK​p​ || C​3​ || y.P​pub || w.P​pub​’): 74b3f9dd367f0f6258fa70fc8e8c87eae2355c6e28b17a2b77bbd6bd7748bfb1
+ !..C​4​’ matches with received C​4..!
+
+ Patient, PHC server and the GH server established the connection successfully
