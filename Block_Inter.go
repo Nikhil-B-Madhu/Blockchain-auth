@@ -6,6 +6,7 @@ import (
 	"crypto/ecdsa"
 	"crypto/elliptic" 
 	crand "crypto/rand"
+	//"log"
 	mrand "math/rand"
 	"os"
 	"time"
@@ -16,7 +17,7 @@ import (
 )
 
 
-// Defining a struct type
+//Defining a struct type
 type RAUTH struct {
 	Gid, V, M ,RPW       []byte
 	ID, PWD 			  string
@@ -65,6 +66,10 @@ func max(a, b int) int {
     }
     return a
 }
+func timeTrack(start time.Time, name string) {
+    elapsed := time.Since(start)
+    fmt.Printf("%s took %s", name, elapsed)
+}
 
 func insertREFAUTHpatient(gid []byte, v []byte, m []byte) {
 	RApatient.Gid = gid
@@ -85,7 +90,7 @@ func insertREFAUTHgovt(gid []byte, v []byte, m []byte) {
 }
 
 func ScalMulandXor( scalar []byte ) ( xorstring []byte ){
-
+	defer timeTrack(time.Now(), "scalarmul")
 	var b bytes.Buffer
 	var c bytes.Buffer
 	ax, ay := elliptic.Curve.ScalarMult(elliptic.P256(), pubkey.X, pubkey.Y, scalar) //elliptic.P256().Params().Gx, elliptic.P256().Params().Gy, scalar)
@@ -137,6 +142,7 @@ func simplexor( xor1 string, xor2 string) ( xorstring []byte){
 }
 
 func hashing( b string) ( ha []byte){
+	defer timeTrack(time.Now(), "hashing")
 	h := sha256.New()
 	h.Write([]byte(b))
 	ha = h.Sum(nil)
