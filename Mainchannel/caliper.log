@@ -1,0 +1,33 @@
+2020.05.06-21:19:07.956[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2020.05.06-21:19:08.267[33m warn [39m [caliper] [bind] 	Working directory for binding not specified. Using "/usr/local/hyperledger/fabric-samples/Mainchannel"
+2020.05.06-21:19:08.269[32m info [39m [caliper] [bind] 	Binding for fabric@1.4.0. This might take some time...
+2020.05.06-21:19:08.269[32m info [39m [caliper] [bind] 	Binding working directory: /usr/local/hyperledger/fabric-samples/Mainchannel
+2020.05.06-21:19:08.269[32m info [39m [caliper] [bind] 	Calling npm with: install grpc@1.14.2 fabric-ca-client@1.4.0 fabric-client@1.4.0 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.0
+2020.05.06-21:19:33.294[31m error[39m [caliper] [bind] 	Failed to execute "npm" with return code 1.
+2020.05.06-21:21:09.102[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2020.05.06-21:21:09.226[33m warn [39m [caliper] [bind] 	Working directory for binding not specified. Using "/usr/local/hyperledger/fabric-samples/Mainchannel"
+2020.05.06-21:21:09.227[32m info [39m [caliper] [bind] 	Binding for fabric@1.4.0. This might take some time...
+2020.05.06-21:21:09.227[32m info [39m [caliper] [bind] 	Binding working directory: /usr/local/hyperledger/fabric-samples/Mainchannel
+2020.05.06-21:21:09.227[32m info [39m [caliper] [bind] 	Calling npm with: install grpc@1.14.2 fabric-ca-client@1.4.0 fabric-client@1.4.0 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.0
+2020.05.06-21:21:57.063[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2020.05.06-21:21:59.756[33m warn [39m [caliper] [bind] 	Working directory for binding not specified. Using "/usr/local/hyperledger/fabric-samples/Mainchannel"
+2020.05.06-21:21:59.758[32m info [39m [caliper] [bind] 	Binding for fabric@1.4.0. This might take some time...
+2020.05.06-21:21:59.758[32m info [39m [caliper] [bind] 	Binding working directory: /usr/local/hyperledger/fabric-samples/Mainchannel
+2020.05.06-21:21:59.758[32m info [39m [caliper] [bind] 	Calling npm with: install grpc@1.14.2 fabric-ca-client@1.4.0 fabric-client@1.4.0 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.0
+2020.05.06-23:12:34.812[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2020.05.06-23:12:36.762[33m warn [39m [caliper] [bind] 	Working directory for binding not specified. Using "/usr/local/hyperledger/fabric-samples/Mainchannel"
+2020.05.06-23:12:36.764[32m info [39m [caliper] [bind] 	Binding for fabric@1.4.4. This might take some time...
+2020.05.06-23:12:36.764[32m info [39m [caliper] [bind] 	Binding working directory: /usr/local/hyperledger/fabric-samples/Mainchannel
+2020.05.06-23:12:36.764[32m info [39m [caliper] [bind] 	Calling npm with: install grpc@1.14.2 fabric-ca-client@1.4.4 fabric-client@1.4.4 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.4
+2020.05.06-23:13:13.683[31m error[39m [caliper] [bind] 	Failed to execute "npm" with return code 1.
+2020.05.06-23:14:18.267[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2020.05.06-23:14:18.772[33m warn [39m [caliper] [bind] 	Working directory for binding not specified. Using "/usr/local/hyperledger/fabric-samples/Mainchannel"
+2020.05.06-23:14:18.773[32m info [39m [caliper] [bind] 	Binding for fabric@1.4.4. This might take some time...
+2020.05.06-23:14:18.774[32m info [39m [caliper] [bind] 	Binding working directory: /usr/local/hyperledger/fabric-samples/Mainchannel
+2020.05.06-23:14:18.774[32m info [39m [caliper] [bind] 	Calling npm with: install grpc@1.14.2 fabric-ca-client@1.4.4 fabric-client@1.4.4 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.4
+2020.05.06-23:14:39.128[31m error[39m [caliper] [bind] 	Failed to execute "npm" with return code 1.
+2020.05.06-23:14:51.284[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2020.05.06-23:14:51.409[33m warn [39m [caliper] [bind] 	Working directory for binding not specified. Using "/usr/local/hyperledger/fabric-samples/Mainchannel"
+2020.05.06-23:14:51.410[32m info [39m [caliper] [bind] 	Binding for fabric@1.4.4. This might take some time...
+2020.05.06-23:14:51.410[32m info [39m [caliper] [bind] 	Binding working directory: /usr/local/hyperledger/fabric-samples/Mainchannel
+2020.05.06-23:14:51.410[32m info [39m [caliper] [bind] 	Calling npm with: install grpc@1.14.2 fabric-ca-client@1.4.4 fabric-client@1.4.4 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.4
